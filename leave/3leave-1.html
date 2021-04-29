@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home page</title>
+    <link rel="stylesheet" href="cas/style2.css">
+</head> 
+<body>
+<nav>
+    <ul class="topnav">
+      <li><a href="2Home.html">HOME</a></li>
+      <li><a href="#NEWS">NEWS</a></li>
+      <li><a href="#ATTENDANCE">ATTENDANCE</a></li>
+      <li><a href="#ABOUT">ABOUT</a></li>
+      <li class="topnav-right"><a href="#LOGINOUT">LOG OUT</a></li>
+      <li class="topnav-right"><a href="#MYPROFILE">MY PROFILE</a></li>
+      <li class="drop"><a href="javascript:void(0);"  onclick="dropMenu()">&#9776;</a></li>
+
+
+
+    </ul>
+</nav>
+<div class="container" id="sec1grad">
+<!-- <h1 style="text-align:center" id="head">Welcome Back! <br> </h1> -->
+
+
+  <img src="image1.jpg" alt="image" class="img">
+</div>
+
+<script>
+  function dropMenu()
+  {
+    var x=document.getElementById("dropClick");
+    if(x.className==="topnav")
+    {
+      x.className+="responsive";
+
+    }
+    else{
+      x.className="topnav";
+    }
+  }
+  </script>
+
+
+
+
+<h1 style="text-align:center">Want to apply for leave?</h1>
+
+
+<p  style="text-align:center"  ><a href="3leave-2.html"> click here to fill Leave letter form</a></p>
+
+</body>
+</html>
